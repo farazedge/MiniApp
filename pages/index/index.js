@@ -17,6 +17,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindUserProfile: function () {
+    wx.navigateTo({
+      url: '../userProfile/profile'
+    })
+    console.log('clicked')
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

@@ -1,11 +1,20 @@
-const userData = {
-    userName : 'test User',
-    dob : '20 - 03- 1998',
-    city: 'Abu Dhabi',
-    country: 'UAE',
-    contact: '+97 368733223',
-}
+const userData = [
+    {
+        name  : 'Test User',
+        city  : 'Abu Dhabi',
+        country  : 'UAE',
+        contact  : '+97 46442543',
+        gender  : 'Male',
+    },
+    {
+        name  : 'Test User 1',
+        city  : 'Abu Dhabi',
+        country  : 'UAE',
+        contact  : '+97 46442000',
+        gender  : 'Male',
+    },
+]
 
 module.exports = {
-    userData : userData
+    userData
 }
