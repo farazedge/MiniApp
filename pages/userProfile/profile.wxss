@@ -5,5 +5,10 @@
   }
   .log-item {
     margin: 10rpx;
+    text-align: left;
+  }
+
+  .alignText {
+    align-items : left !important;
   }
   

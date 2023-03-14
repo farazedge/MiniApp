@@ -2,7 +2,8 @@
     "pages": [
         "pages/index/index",
         "pages/logs/logs",
-        "pages/userProfile/profile"
+        "pages/userProfile/profile",
+        "pages/scrollComponent/scrollComponent"
     ],
     "window": {
         "backgroundTextStyle": "light",

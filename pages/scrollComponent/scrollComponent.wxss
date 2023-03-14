@@ -1,0 +1,20 @@
+#red {
+    background: red;
+}
+.bc_cyanblue {
+    background-color: blue;
+}
+
+.scroll-view-item {
+    height: 200px;
+    width: 300px;
+}
+
+.section_gap {
+    margin-top : 20rpx;
+}
+
+.scroll-view-item_H {
+    display:  flex !important;
+    flex-direction: row;
+}

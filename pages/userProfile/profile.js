@@ -6,11 +6,14 @@ Page({
         userData : {},
         userInfo : {}
     },
-
+    gotoNextPage : function () {
+        wx.navigateTo({
+            url : '../scrollComponent/scrollComponent' 
+        })
+    },
     onLoad: function () {
         this.setData({
             userData : userData
         })
-        console.log('data', userData)
     }
 })

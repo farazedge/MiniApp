@@ -1,6 +1,18 @@
 <view class="container log-list">
   <block wx:for="{{userData.userData}}" wx:for-item="log" wx:key="*this">
-    <text class="log-item">{{index + 1}}. {{log.name}}</text>
-    <text class="log-item">{{index + 1}}. {{log.contact}}</text>
+    <image
+      style="width: 200px; height: 200px; background-color: #eeeeee;"
+      mode="scaleToFill"
+      src="{{log.profilePic}}"
+    ></image>
+    <view style="display: flex; flex-direction: column; margin-top:20rpx;
+" class = "alignText" class="section">
+      <text class="log-item">Name : {{log.name}}</text>
+      <text class="log-item">Phone : {{log.contact}}</text>
+      <text class="log-item">City : {{log.city}}</text>
+      <text class="log-item">Country : {{log.country}}</text>
+    </view>
   </block>
+  <button bindtap = "gotoNextPage" style="margin-top:20rpx;
+">NEXT PAGE</button>
 </view>
