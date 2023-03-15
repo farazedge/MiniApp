@@ -1,18 +1,28 @@
 <view class="container">
-    <view class="section">
-        <view class="section__title">vertical scroll</view>
-        <view class="section__title">Vertical scroll</view>
-        <scroll-view scroll-y style="height: 200px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
-            <view id="green" class="scroll-view-item bc_cyanblue">A</view>
-            <view id="red" class="scroll-view-item bc_blue">B</view>
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>Vertical Scroll</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view scroll-y="true" style="height: 300rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+          <view id="demo1" class="scroll-view-item demo-text-1"></view>
+          <view id="demo2"  class="scroll-view-item demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item demo-text-3"></view>
         </scroll-view>
+      </view>
     </view>
-    <view class="section section_gap">
-        <view class="section__title">horizontal scroll</view>
-        <view class="section__title">Horizontal scroll</view>
-        <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
-            <view id="green" class="scroll-view-item_H bc_cyanblue">A</view>
-            <view id="red" class="scroll-view-item_H bc_blue">B</view>
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>Horizontal Scroll</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+          <view id="demo1" class="scroll-view-item_H demo-text-1"></view>
+          <view id="demo2"  class="scroll-view-item_H demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item_H demo-text-3"></view>
         </scroll-view>
+      </view>
     </view>
+  </view>
 </view>

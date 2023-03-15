@@ -3,8 +3,7 @@ const userData = require('../../utils/userProfileData')
 
 Page({
     data: {
-        userData : {},
-        userInfo : {}
+        userData : {}
     },
     gotoNextPage : function () {
         wx.navigateTo({

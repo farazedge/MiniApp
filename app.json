@@ -3,12 +3,14 @@
         "pages/index/index",
         "pages/logs/logs",
         "pages/userProfile/profile",
-        "pages/scrollComponent/scrollComponent"
+        "pages/scrollComponent/scrollComponent",
+        "pages/newDLIssuance/restrictions/restrictions"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "TMF Mini Program",
+        "navigationBarWidth": "2px",
+        "navigationBarTitleText": "New Driving Licence Issuance",
         "navigationBarTextStyle": "black"
     }
 }

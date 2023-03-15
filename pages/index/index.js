@@ -21,7 +21,11 @@ Page({
     wx.navigateTo({
       url: '../userProfile/profile'
     })
-    console.log('clicked')
+  },
+  bindGetNewDL: function () {
+    wx.navigateTo({
+      url: '../newDLIssuance/restrictions/restrictions'
+    })
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
